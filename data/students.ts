@@ -85,39 +85,3 @@ for (const [idxStr, fullName] of Object.entries(namesMap)) {
     students[idx].slug = slugify(fullName)
   }
 }
-
-const ikhsan: Student & { certificates?: Certificate[] } = {
-  id: students.length + 1,
-  name: "M.Ikhsan Candra Putra",
-  slug: slugify("M.Ikhsan Candra Putra"),
-  skills: ["HTML", "CSS", "JavaScript", "React", "UI/UX"],
-  hobbies: ["Coding", "Design", "Gaming"],
-  projects: [
-    {
-      title: "Portfolio – Litevi Class",
-      description: "Situs portofolio pribadi dengan landing page responsif dan dark mode.",
-      link: "#",
-    },
-    {
-      title: "Class App",
-      description: "Aplikasi kelas sederhana (Next.js + Tailwind) untuk informasi siswa dan jadwal.",
-      link: "#",
-    },
-  ],
-  certificates: [
-    {
-      title: "Dasar AI",
-      issuer: "Dicoding",
-      date: "2025-10-11",
-      link: " https://pixhost.to/show/9349/650144429_1000680278.jpg",
-    },
-  ],
-}
-
-students.push(ikhsan)
-
-export const allStudents = students
-
-export function findStudentBySlug(slug: string) {
-  return students.find((s) => s.slug === slug)
-}
