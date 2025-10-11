@@ -1,13 +1,14 @@
-Tentu, ini draf README.md untuk proyek GitHub Anda.
-
 # Litevi Class
- **CONTRIBUTOR**
- 
- * Aden Fathul Fatonah
- * M.Ikhsan Candra Putra
- * M. Hasbi Al-Asy'ariy
 
 Ini adalah website untuk Litevi Class, yang menampilkan informasi kelas, jadwal, portofolio siswa, dan fitur interaktif lainnya. Proyek ini dibangun dengan Next.js dan TypeScript, serta menggunakan Tailwind CSS untuk styling.
+
+## Contributor
+
+Para Developer yang ikut mengembangkan project ini
+
+ * Aden Fathul Fatonah
+ * M.Ikhsan Candra Putra
+ * M. Hasbi Al-As'ariy
 
 ## Fitur
 
@@ -18,7 +19,7 @@ Ini adalah website untuk Litevi Class, yang menampilkan informasi kelas, jadwal,
   * **Desain Responsif**: Didesain agar dapat diakses dengan baik di perangkat desktop maupun mobile.
   * **Mode Terang & Gelap**: Dilengkapi dengan tombol untuk mengubah tema antara mode terang dan gelap.
 
-## Teknologi yang Digunakan
+## Tech Stack
 
   * **Framework**: Next.js
   * **Bahasa**: TypeScript
