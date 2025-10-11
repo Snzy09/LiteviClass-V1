@@ -1,6 +1,6 @@
 export type Subject = { time: string; name: string; teacher?: string }
 
-export const days = ["Senin", "Selasa", "Rabu", "Kamis", "Jumat"] as const
+export const days = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"] as const
 export type Day = (typeof days)[number]
 
 export const weeklySchedule: Record<Day, Subject[]> = {
