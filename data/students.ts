@@ -29,13 +29,21 @@ function slugify(input: string) {
 
 const namesMap: Record<number, string> = {
   1: "Abdurrahman Bagas Al Hafidz",
+  2: "Aden Fathul Fatona", 
+  3: "Andea Christiani Hutagalung", 
   4: "Anggun Anggraini",
   5: "Anjas Marcellino",
   6: "Azzahra Salsabila Meysiandrey",
+  7: "Chalista Teresya Winata", 
+  8: "Dinda Sri Hartaty", 
+  9: "Fabian Dwitya Azzam Niscal Nasution", 
   10: "Fairuz Salwa",
   11: "Fiana Dwi Aprilia",
+  12: "Gebran Satria Mandala", 
   13: "Khumairah Oktaviani",
   14: "Kiara Anaya Syiefanny",
+  15: "M.Ikhsan Candra Putra", 
+  16: "M Raffi Al Misky", 
   17: "Masayu Nafisah Hamzah",
   18: "M.Ardiansya Pratama",
   19: "Muhammad Fatir Syaldhan",
@@ -47,6 +55,8 @@ const namesMap: Record<number, string> = {
   25: "Ratie Meitasari",
   26: "Salman Al Faritzy",
   27: "Sekar Anggun Ramadhani",
+  28: "Seril meilia", 
+  29: "Sinta Pertiwi", 
   30: "Tri Satria Simbolon",
   31: "Valiant Athaya Molisky",
   32: "Yeyen apriani",
@@ -78,8 +88,8 @@ for (const [idxStr, fullName] of Object.entries(namesMap)) {
 
 const ikhsan: Student & { certificates?: Certificate[] } = {
   id: students.length + 1,
-  name: "M. Ikhsan C.P",
-  slug: slugify("M. Ikhsan C.P"),
+  name: "M.Ikhsan Candra Putra",
+  slug: slugify("M.Ikhsan Candra Putra"),
   skills: ["HTML", "CSS", "JavaScript", "React", "UI/UX"],
   hobbies: ["Coding", "Design", "Gaming"],
   projects: [
@@ -96,16 +106,10 @@ const ikhsan: Student & { certificates?: Certificate[] } = {
   ],
   certificates: [
     {
-      title: "Front-End Web Development",
+      title: "Dasar AI",
       issuer: "Dicoding",
-      date: "2024-08",
-      link: "https://example.com/certificate/dicoding-frontend",
-    },
-    {
-      title: "Responsive Web Design",
-      issuer: "freeCodeCamp",
-      date: "2024-05",
-      link: "https://example.com/certificate/fcc-rwd",
+      date: "2025-10-11",
+      link: " https://pixhost.to/show/9349/650144429_1000680278.jpg",
     },
   ],
 }
