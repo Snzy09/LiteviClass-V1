@@ -54,15 +54,6 @@ export default function AssignmentsList({ items, className }: Props) {
         </CardHeader>
         <CardContent className="grid grid-cols-1 gap-4 md:grid-cols-3">
           <div className="space-y-2">
-            <Label htmlFor="search">Cari</Label>
-            <Input
-              id="search"
-              placeholder="Cari judul, mata pelajaran, tag..."
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-            />
-          </div>
-          <div className="space-y-2">
             <Label>Status</Label>
             <div className="flex flex-wrap gap-2">
               <Button size="sm" variant={status === "semua" ? "default" : "outline"} onClick={() => setStatus("semua")}>
