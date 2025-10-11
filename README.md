@@ -1,8 +1,8 @@
-# Litevi Class
+# Litevi Class 💻
 
 Ini adalah website untuk Litevi Class, yang menampilkan informasi kelas, jadwal, portofolio siswa, dan fitur interaktif lainnya. Proyek ini dibangun dengan Next.js dan TypeScript, serta menggunakan Tailwind CSS untuk styling.
 
-## Contributor
+## Contributor 👥
 
 Para Developer yang ikut mengembangkan project ini
 
@@ -10,7 +10,7 @@ Para Developer yang ikut mengembangkan project ini
  * M.Ikhsan Candra Putra
  * M. Hasbi Al-As'ariy
 
-## Fitur
+## Fitur 🔔
 
   * **Jadwal Pelajaran & Piket**: Menampilkan jadwal pelajaran dan daftar piket harian untuk siswa.
   * **Portofolio Siswa**: Setiap siswa memiliki halaman portofolio sendiri yang menampilkan keahlian, hobi, dan proyek yang pernah dikerjakan.
@@ -19,7 +19,7 @@ Para Developer yang ikut mengembangkan project ini
   * **Desain Responsif**: Didesain agar dapat diakses dengan baik di perangkat desktop maupun mobile.
   * **Mode Terang & Gelap**: Dilengkapi dengan tombol untuk mengubah tema antara mode terang dan gelap.
 
-## Tech Stack
+## Tech Stack 📣
 
   * **Framework**: Next.js
   * **Bahasa**: TypeScript
@@ -28,7 +28,7 @@ Para Developer yang ikut mengembangkan project ini
   * **Animasi**: Framer Motion, GSAP
   * **Backend (untuk Obrolan)**: Supabase
 
-## Memulai
+## Starter 🪽
 
 Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
 
@@ -50,7 +50,7 @@ Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
     ```
     Buka [http://localhost:3000](https://www.google.com/search?q=http://localhost:3000) di browser Anda untuk melihat hasilnya.
 
-## Struktur Proyek
+## Struktur Proyek 🕹
 
   * `/app`: Berisi semua halaman dan rute aplikasi.
   * `/components`: Komponen React yang dapat digunakan kembali.
