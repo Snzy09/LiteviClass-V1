@@ -30,8 +30,8 @@ function getStoredName() {
   if (typeof window === "undefined") return "Anon-" + Math.random().toString(36).slice(2, 6)
   const saved = localStorage.getItem("anon_name")
   if (saved) return saved
-  const adjectives = ["Pocil", "Tanker"]
-  const animals = ["GEBRAN", "BOLON"]
+  const adjectives = ["Anomali", "Pocil", "Sih Imut"]
+  const animals = ["Gebran", "Bolon", "Ardi"]
   const name = `${adjectives[Math.floor(Math.random() * adjectives.length)]}${animals[Math.floor(Math.random() * animals.length)]}-${Math.floor(Math.random() * 90 + 10)}`
   localStorage.setItem("anon_name", name)
   return name
