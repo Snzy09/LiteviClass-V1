@@ -9,10 +9,9 @@ import {
 } from "@/components/ui/carousel"
 
 const images = [
-  // Replace with direct image links if these fail
-  "https://img.pixhost.to/images/9359/650313225_1000519542.jpg",
-  "https://img.pixhost.to/images/9359/650313202_1000541094.jpg",
-  "https://img.pixhost.to/images/9359/650313187_1000569890.jpg",
+  "https://pixhost.to/show/9359/650313225_1000519542.jpg",
+  "https://pixhost.to/show/9359/650313202_1000541094.jpg",
+  "https://pixhost.to/show/9359/650313187_1000569890.jpg",
 ]
 
 export default function ClassGallery() {
@@ -24,14 +23,10 @@ export default function ClassGallery() {
             <CarouselItem key={src} className="basis-full sm:basis-1/2 lg:basis-1/3">
               <div className="overflow-hidden rounded-lg bg-muted/30 sm:rounded-xl">
                 <img
-                  src={src}
+                  src={src || "/placeholder.svg"}
                   alt={`Class photo ${idx + 1}`}
                   className="h-[200px] w-full object-cover sm:h-[260px] md:h-[300px]"
-                  loading="lazy"
                   crossOrigin="anonymous"
-                  onError={(e) => {
-                    (e.target as HTMLImageElement).src = "/placeholder.svg"
-                  }}
                 />
               </div>
             </CarouselItem>
