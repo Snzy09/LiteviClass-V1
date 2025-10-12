@@ -70,11 +70,4 @@ export const students: Student[] = Array.from({ length: 32 }, (_, i) => {
   }
 })
 
-/*for (const [idxStr, fullName] of Object.entries(namesMap)) {
-  const idx = Number(idxStr) - 1
-  if (students[idx]) {
-    students[idx].name = fullName
-    students[idx].slug = slugify(fullName)
-  }
-}
-*/
+export const allStudents = students
