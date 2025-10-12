@@ -1,11 +1,18 @@
 "use client"
 
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
 
 const images = [
-  "https://pixhost.to/show/9359/650313225_1000519542.jpg",
-  "https://pixhost.to/show/9359/650313202_1000541094.jpg",
-  "https://pixhost.to/show/9359/650313187_1000569890.jpg",
+  // Replace with direct image links if these fail
+  "https://img.pixhost.to/images/9359/650313225_1000519542.jpg",
+  "https://img.pixhost.to/images/9359/650313202_1000541094.jpg",
+  "https://img.pixhost.to/images/9359/650313187_1000569890.jpg",
 ]
 
 export default function ClassGallery() {
@@ -17,10 +24,14 @@ export default function ClassGallery() {
             <CarouselItem key={src} className="basis-full sm:basis-1/2 lg:basis-1/3">
               <div className="overflow-hidden rounded-lg bg-muted/30 sm:rounded-xl">
                 <img
-                  src={src || "/placeholder.svg"}
+                  src={src}
                   alt={`Class photo ${idx + 1}`}
                   className="h-[200px] w-full object-cover sm:h-[260px] md:h-[300px]"
+                  loading="lazy"
                   crossOrigin="anonymous"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = "/placeholder.svg"
+                  }}
                 />
               </div>
             </CarouselItem>
