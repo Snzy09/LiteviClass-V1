@@ -8,13 +8,6 @@ export type Student = {
   projects: Project[]
 }
 
-export type Certificate = {
-  title: string
-  issuer?: string
-  date?: string
-  link?: string
-}
-
 const baseSkills = ["HTML", "CSS", "JavaScript", "TypeScript", "React", "UI/UX"] as const
 
 const baseHobbies = ["Gaming", "Coding", "Music", "Design", "Reading"] as const
@@ -77,10 +70,11 @@ export const students: Student[] = Array.from({ length: 32 }, (_, i) => {
   }
 })
 
-for (const [idxStr, fullName] of Object.entries(namesMap)) {
+/*for (const [idxStr, fullName] of Object.entries(namesMap)) {
   const idx = Number(idxStr) - 1
   if (students[idx]) {
     students[idx].name = fullName
     students[idx].slug = slugify(fullName)
   }
 }
+*/
