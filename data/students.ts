@@ -59,8 +59,8 @@ export const students: Student[] = Array.from({ length: 32 }, (_, i) => {
   const num = String(students)
   return {
     id: n,
-    name: `${num}`,
-    slug: `${num}`,
+    name: `${namesMap}`,
+    slug: `${namesMap}`,
     skills: [baseSkills[i % baseSkills.length], "Git", "Problem Solving"],
     hobbies: [baseHobbies[i % baseHobbies.length], "Sports"],
     projects: [
