@@ -6,7 +6,6 @@ export type Student = {
   skills: string[]
   hobbies: string[]
   projects: Project[]
-  certificates?: Certificate[]
 }
 
 export type Certificate = {
