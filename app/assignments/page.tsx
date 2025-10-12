@@ -9,10 +9,12 @@ export const metadata = {
 
 export default function AssignmentsPage() {
   return (
+    <>
     <SiteHeader />
     <main className="mx-auto max-w-6xl px-4 pb-16 pt-10">
       <h1 className="mb-6 text-center text-3xl font-semibold tracking-tight">Tugas / PR</h1>
       <AssignmentsList items={assignments} />
     </main>
+    </>
   )
 }
