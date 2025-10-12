@@ -9,6 +9,8 @@ import {
 } from "@/components/ui/carousel"
 
 const images = [
+  "/gallery2.jpeg", 
+  "/gallery3.jpeg",
 ]
 
 export default function ClassGallery() {
@@ -20,7 +22,7 @@ export default function ClassGallery() {
             <CarouselItem key={src} className="basis-full sm:basis-1/2 lg:basis-1/3">
               <div className="overflow-hidden rounded-lg bg-muted/30 sm:rounded-xl">
                 <img
-                  src={src || "/gallery1.jpeg", "/gallery2.jpeg", "/gallery3.jpeg"}
+                  src={src || "/gallery1.jpeg"}
                   alt={`Class photo ${idx + 1}`}
                   className="h-[200px] w-full object-cover sm:h-[260px] md:h-[300px]"
                   crossOrigin="anonymous"
