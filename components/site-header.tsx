@@ -12,6 +12,7 @@ const nav = [
   { href: "/#piket", label: "Piket" },
   { href: "/students", label: "Siswa" },
   { href: "/chat", label: "Chat" },
+  { href: "/assignments", label: "Tugas" },
 ]
 
 export function SiteHeader() {
