@@ -12,7 +12,7 @@ export default function ChatPage() {
         <MotionFadeIn>
           <h1 className="text-balance text-3xl font-bold leading-tight md:text-4xl">Litevi Chat</h1>
           <p className="mt-2 text-muted-foreground">
-            Ngobrol bebas dan anonim dengan teman-teman. Tetap santun dan sopan ya!
+            Chat Anonim , No Toxic !!
           </p>
         </MotionFadeIn>
         <Card className="mt-6 border-border/60 bg-card">
