@@ -3,10 +3,9 @@
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
 
 const images = [
-  "https://firebasestorage.googleapis.com/v0/b/project-web-kelas.appspot.com/o/GambarAman%2FWhatsApp%20Image%202023-06-22%20at%2009.18.12.jpeg?alt=media&token=301ac142-3335-49e3-833c-a56c1d9223ae",
-  "https://firebasestorage.googleapis.com/v0/b/project-web-kelas.appspot.com/o/GambarAman%2FWhatsApp%20Image%202023-08-30%20at%2023.11.07.jpeg?alt=media&token=5aa1f61d-2271-49d7-950d-08955fdb03b2",
-  "https://firebasestorage.googleapis.com/v0/b/project-web-kelas.appspot.com/o/GambarAman%2FWhatsApp%20Image%202023-10-19%20at%2008.47.55.jpeg?alt=media&token=4852929b-ea75-4281-a915-56f11f13ee49",
-  "https://firebasestorage.googleapis.com/v0/b/project-web-kelas.appspot.com/o/GambarAman%2Fhari_guru.jpg?alt=media&token=0339961f-af42-49e9-af0b-aef090138d53",
+  "https://pixhost.to/show/9359/650313225_1000519542.jpg",
+  "https://pixhost.to/show/9359/650313202_1000541094.jpg",
+  "https://pixhost.to/show/9359/650313187_1000569890.jpg",
 ]
 
 export default function ClassGallery() {
