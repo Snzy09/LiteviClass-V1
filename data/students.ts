@@ -71,3 +71,7 @@ export const students: Student[] = Array.from({ length: 32 }, (_, i) => {
 })
 
 export const allStudents = students
+
+export function findStudentBySlug(slug: string) {
+  return students.find((s) => s.slug === slug)
+}
