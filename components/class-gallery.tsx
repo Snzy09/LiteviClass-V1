@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/carousel"
 
 const images = [
-  "/gallery1.jpeg"
+  "/gallery1.jpeg",
   "/gallery2.jpeg", 
   "/gallery3.jpeg",
 ]
