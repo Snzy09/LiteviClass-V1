@@ -10,9 +10,9 @@ import AppSidebar from "@/components/app-sidebar"
 import { Suspense } from "react"
 
 export const metadata: Metadata = {
-  title: "v0 App",
-  description: "Created with v0",
-  generator: "v0.app",
+  title: "Litevi Class",
+  description: "Litevi Class V1",
+  generator: "NexProject",
 }
 
 export default function RootLayout({
