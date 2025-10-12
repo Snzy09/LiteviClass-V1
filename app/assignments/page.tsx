@@ -1,3 +1,4 @@
+import { SiteHeader } from "@/components/site-header"
 import AssignmentsList from "@/components/assignments-list"
 import { assignments } from "@/data/assignments"
 
