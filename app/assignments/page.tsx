@@ -4,7 +4,7 @@ import { assignments } from "@/data/assignments"
 
 export const metadata = {
   title: "Tugas / PR",
-  description: "Informasi tugas dan PR kelas—filter, cari, dan pantau tenggat.",
+  description: "Informasi tugas dan PR, cari, dan pantau tenggat.",
 }
 
 export default function AssignmentsPage() {
