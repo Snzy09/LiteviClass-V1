@@ -17,7 +17,7 @@ export default function HomePage() {
             <TextType
               as="h1"
               className="text-pretty text-3xl font-extrabold leading-tight sm:text-4xl md:text-5xl"
-              text={["Litevi Class", "By Sanzzy"]}
+              text={["Litevi Class", "Meta V1"]}
               typingSpeed={75}
               pauseDuration={1500}
               showCursor={true}
@@ -51,11 +51,12 @@ export default function HomePage() {
           </div>
 
           <div className="rounded-2xl border border-border/60 bg-secondary/40 p-4 sm:p-6">
-            <p className="text-sm text-muted-foreground">Info Kelas</p>
+            <p className="text-sm text-muted-foreground">Aturan Kelas</p>
             <ul className="mt-2 list-disc pl-5 text-sm text-muted-foreground">
-              <li>Kelas Paling Enjoy</li>
-              <li>Anak Didik Maam Almi</li>
-              <li>Ada Sih Imut Ardi</li>
+              <li>Uang Kas 2K/Minggu</li>
+              <li>Buang Sampah Pada Tempatnya</li>
+              <li>Piket Harian Sapu , Pel , Buang Sampah</li>
+              <li>Melanggar Denda Rp 64.000 Atau Traktir Es Teh Sekelas</li>
             </ul>
           </div>
         </section>
@@ -101,7 +102,7 @@ export default function HomePage() {
       </main>
       <footer className="border-t border-border/60 py-6 sm:py-8">
         <div className="mx-auto max-w-6xl px-3 text-center text-xs text-muted-foreground sm:px-4 sm:text-left sm:text-sm">
-          © {new Date().getFullYear()} Litevi Class — Aden | Ikhsan | Hasbi
+          © {new Date().getFullYear()} Litevi Class — By Aden | Ikhsan | Hasbi
         </div>
       </footer>
     </div>
