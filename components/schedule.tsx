@@ -60,13 +60,11 @@ export function Schedule() {
       {/* Body */}
       {isHoliday ? (
         <Card className="rounded-xl border border-border/60 bg-muted/40 p-6 text-center">
-          <h3 className="text-lg font-medium">Sedang libur</h3>
-          <p className="text-sm text-muted-foreground">Tidak ada jadwal mata pelajaran untuk hari ini.</p>
+          <h3 className="text-sm text-muted-foreground">Tidak ada jadwal mata pelajaran untuk hari ini.</h3>
         </Card>
       ) : todayLessons.length === 0 ? (
         <Card className="rounded-xl border border-border/60 bg-muted/40 p-6 text-center">
-          <h3 className="text-lg font-medium">Tidak ada jadwal</h3>
-          <p className="text-sm text-muted-foreground">Belum ada jadwal yang terdaftar untuk hari ini.</p>
+          <h3 className="text-sm text-muted-foreground">Belum ada jadwal yang terdaftar untuk hari ini.</h3>
         </Card>
       ) : (
         <MotionStagger key={active} className="grid grid-cols-1 gap-3 sm:grid-cols-2">
