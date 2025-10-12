@@ -17,7 +17,7 @@ import {
   SidebarSeparator,
 } from "@/components/ui/sidebar"
 import { ModeToggle } from "@/components/mode-toggle"
-import { Home, CalendarDays, Book as Broom, Users, MessageCircle, LogOut, Search } from "lucide-react"
+import { Home, CalendarDays, Book as Broom, Users, MessageCircle, LogOut, Search, BookOpen } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 const items = [
@@ -26,6 +26,7 @@ const items = [
   { href: "/#piket", label: "Piket", icon: Broom },
   { href: "/students", label: "Siswa", icon: Users },
   { href: "/chat", label: "Chat", icon: MessageCircle },
+  { href: "/assignments", label: "Chat", icon: BookOpen },
 ]
 
 export function AppSidebar() {
@@ -85,16 +86,6 @@ export function AppSidebar() {
       <SidebarSeparator />
 
       <SidebarFooter>
-        <SidebarMenu>
-          <SidebarMenuItem>
-            <button className="w-full">
-              <SidebarMenuButton variant="default">
-                <LogOut />
-                <span>Logout</span>
-              </SidebarMenuButton>
-            </button>
-          </SidebarMenuItem>
-        </SidebarMenu>
         <div className="rounded-md bg-secondary/60 px-2 py-1.5">
           <div className="flex items-center justify-between gap-3">
             <span className="text-xs text-muted-foreground">Mode</span>
