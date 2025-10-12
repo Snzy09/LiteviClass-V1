@@ -128,7 +128,7 @@ export default function AssignmentsList({ items, className }: Props) {
                     ))}
                   </div>
                 ) : null}
-                {i.assignedBy ? <p className="text-xs text-muted-foreground">Pengampu: {i.assignedBy}</p> : null}
+                {i.assignedBy ? <p className="text-xs text-muted-foreground">Guru : {i.assignedBy}</p> : null}
               </CardContent>
             </Card>
           )
