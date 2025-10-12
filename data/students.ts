@@ -20,38 +20,38 @@ function slugify(input: string) {
 }
 
 const namesMap: Record<string> = {
-  "Abdurrahman Bagas Al Hafidz",
-  "Aden Fathul Fatona", 
-  "Andea Christiani Hutagalung", 
-  "Anggun Anggraini",
-  "Anjas Marcellino",
-  "Azzahra Salsabila Meysiandrey",
-  "Chalista Teresya Winata", 
-  "Dinda Sri Hartaty", 
-  "Fabian Dwitya Azzam Niscal Nasution", 
-  "Fairuz Salwa",
-  "Fiana Dwi Aprilia",
-  "Gebran Satria Mandala", 
-  "Khumairah Oktaviani",
-  "Kiara Anaya Syiefanny",
-  "M.Ikhsan Candra Putra", 
-  "M Raffi Al Misky", 
-  "Masayu Nafisah Hamzah",
-  "M.Ardiansya Pratama",
-  "Muhammad Fatir Syaldhan",
-  "Muhammad Hasbi Al-as'ariy",
-  "Nadine Fissilmi Kaffah",
-  "Naurah Clarisya Putri Arini",
-  "Nova Rosmalinda",
-  "Raisya Aurellia",
-  "Ratie Meitasari",
-  "Salman Al Faritzy",
-  "Sekar Anggun Ramadhani",
-  "Seril meilia", 
-  "Sinta Pertiwi", 
-  "Tri Satria Simbolon",
-  "Valiant Athaya Molisky",
-  "Yeyen apriani",
+  "Abdurrahman Bagas Al Hafidz"
+  "Aden Fathul Fatona"
+  "Andea Christiani Hutagalung" 
+  "Anggun Anggraini"
+  "Anjas Marcellino"
+  "Azzahra Salsabila Meysiandrey"
+  "Chalista Teresya Winata"
+  "Dinda Sri Hartaty"
+  "Fabian Dwitya Azzam Niscal Nasution" 
+  "Fairuz Salwa"
+  "Fiana Dwi Aprilia"
+  "Gebran Satria Mandala" 
+  "Khumairah Oktaviani"
+  "Kiara Anaya Syiefanny"
+  "M.Ikhsan Candra Putra" 
+  "M Raffi Al Misky"
+  "Masayu Nafisah Hamzah"
+  "M.Ardiansya Pratama"
+  "Muhammad Fatir Syaldhan"
+  "Muhammad Hasbi Al-as'ariy"
+  "Nadine Fissilmi Kaffah"
+  "Naurah Clarisya Putri Arini"
+  "Nova Rosmalinda"
+  "Raisya Aurellia"
+  "Ratie Meitasari"
+  "Salman Al Faritzy"
+  "Sekar Anggun Ramadhani"
+  "Seril meilia"
+  "Sinta Pertiwi" 
+  "Tri Satria Simbolon"
+  "Valiant Athaya Molisky"
+  "Yeyen apriani"
 }
 
 export const students: Student[] = Array.from({ length: 32 }, (_, i) => {
