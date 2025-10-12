@@ -56,7 +56,6 @@ const namesMap: Record<number, string> = {
 
 export const students: Student[] = Array.from({ length: 32 }, (_, i) => {
   const n = i + 1
-  const num = String(students)
   return {
     id: n,
     name: `${namesMap}`,
@@ -64,8 +63,8 @@ export const students: Student[] = Array.from({ length: 32 }, (_, i) => {
     skills: [baseSkills[i % baseSkills.length], "Git", "Problem Solving"],
     hobbies: [baseHobbies[i % baseHobbies.length], "Sports"],
     projects: [
-      { title: `Portfolio ${num}`, description: "Website pribadi sederhana (landing page)." },
-      { title: `App ${num}`, description: "Aplikasi kecil menggunakan React dan Tailwind." },
+      { title: `Portfolio ${namesMap}`, description: "Website pribadi sederhana (landing page)." },
+      { title: `App ${namesMap}`, description: "Aplikasi kecil menggunakan React dan Tailwind." },
     ],
   }
 })
