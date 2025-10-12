@@ -26,7 +26,7 @@ const items = [
   { href: "/#piket", label: "Piket", icon: Broom },
   { href: "/students", label: "Siswa", icon: Users },
   { href: "/chat", label: "Chat", icon: MessageCircle },
-  { href: "/assignments", label: "Chat", icon: BookOpen },
+  { href: "/assignments", label: "Tugas", icon: BookOpen },
 ]
 
 export function AppSidebar() {
