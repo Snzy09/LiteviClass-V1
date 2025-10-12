@@ -54,7 +54,7 @@ Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
 
   * `/app`: Berisi semua halaman dan rute aplikasi.
   * `/components`: Komponen React yang dapat digunakan kembali.
-      * `/components/ui`: Komponen UI dari shadcn/ui.
+  * `/components/ui`: Komponen UI dari shadcn/ui.
   * `/data`: Berisi data statis seperti daftar siswa, jadwal, dll.
   * `/lib`: Berisi fungsi utilitas.
   * `/public`: Aset statis seperti gambar.
