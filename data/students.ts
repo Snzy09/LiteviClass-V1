@@ -56,11 +56,11 @@ const namesMap: Record<number, string> = {
 
 export const students: Student[] = Array.from({ length: 32 }, (_, i) => {
   const n = i + 1
-  const num = String(n).padStart(2, "0")
+  const num = String(students)
   return {
     id: n,
-    name: `Siswa ${num}`,
-    slug: `siswa-${num}`,
+    name: `${num}`,
+    slug: `${num}`,
     skills: [baseSkills[i % baseSkills.length], "Git", "Problem Solving"],
     hobbies: [baseHobbies[i % baseHobbies.length], "Sports"],
     projects: [
