@@ -1,1 +1,30 @@
 
+{
+  "profilePhoto": "aden-fathul-fatona.jpeg",
+  "bio": "Deskripsi singkat tentang diri sendiri",
+  "customSkills": [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS"
+  ],
+  "customHobbies": [
+    "Coding",
+    "Gaming",
+    "Music"
+  ],
+  "customProjects": [
+    {
+      "title": "Nama Project",
+      "description": "Deskripsi project yang detail",
+      "link": "https://link-project.com",
+      "image": "nama-foto-project.jpeg"
+    }
+  ],
+  "socialLinks": {
+    "instagram": "https://instagram.com/username",
+    "github": "https://github.com/username",
+    "linkedin": "https://linkedin.com/in/username",
+    "portfolio": "https://portfolio.com"
+  }
+}
