@@ -1,30 +1,36 @@
-
 {
   "profilePhoto": "aden-fathul-fatona.jpeg",
-  "bio": "Deskripsi singkat tentang diri sendiri",
+  "bio": "Web Developer yang passionate dalam UI/UX. Suka belajar hal baru dan berbagi ilmu.",
   "customSkills": [
     "React",
     "Next.js",
     "TypeScript",
-    "Tailwind CSS"
+    "Tailwind CSS",
+    "Figma",
+    "Git"
   ],
   "customHobbies": [
     "Coding",
     "Gaming",
-    "Music"
+    "Reading",
+    "Photography"
   ],
   "customProjects": [
     {
-      "title": "Nama Project",
-      "description": "Deskripsi project yang detail",
-      "link": "https://link-project.com",
-      "image": "nama-foto-project.jpeg"
+      "title": "Litevi Class Management",
+      "description": "Website manajemen kelas dengan fitur jadwal, piket, chat anonim, dan portfolio siswa.",
+      "link": "https://litevi-class.vercel.app",
+      "image": "aden-litevi.jpeg"
+    },
+    {
+      "title": "Personal Portfolio",
+      "description": "Portfolio website dengan animasi modern menggunakan Framer Motion.",
+      "link": "https://aden-portfolio.com",
+      "image": "aden-portfolio.jpeg"
     }
   ],
   "socialLinks": {
-    "instagram": "https://instagram.com/username",
-    "github": "https://github.com/username",
-    "linkedin": "https://linkedin.com/in/username",
-    "portfolio": "https://portfolio.com"
+    "instagram": "https://instagram.com/aden.fathul",
+    "github": "https://github.com/adenfathul"
   }
 }
