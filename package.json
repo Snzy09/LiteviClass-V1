@@ -6,7 +6,9 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start",
+    "setup:configs": "node scripts/generate-student-configs.js",
+    "setup:folders": "node scripts/setup-folders.js"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
