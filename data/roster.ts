@@ -11,7 +11,9 @@ function chunk<T>(arr: T[], size: number): T[][] {
 const groups = chunk(students, Math.ceil(students.length / days.length))
 
 export const dutyByDay: Record<Day, string[]> = {
-  Senin: groups[0]?.map((s) => s.name) ?? [],
+  Senin: [{
+    name: "Ahmad Fadli",
+  }],
   Selasa: groups[1]?.map((s) => s.name) ?? [],
   Rabu: groups[2]?.map((s) => s.name) ?? [],
   Kamis: groups[3]?.map((s) => s.name) ?? [],
