@@ -12,7 +12,7 @@ const groups = chunk(students, Math.ceil(students.length / days.length))
 
 // Optional: gunakan data manual alih-alih mengambil dari `students`
 // Set `useManualDuty = true` untuk memakai `manualDutyByDay`.
-export const useManualDuty = false
+export const useManualDuty = true
 
 // Jika ingin memasukkan nama manual, edit `manualDutyByDay`.
 // Tipe Partial<Record<Day,string[]>> supaya Anda hanya perlu mengisi hari yang ingin di-override.
