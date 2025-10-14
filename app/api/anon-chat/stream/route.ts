@@ -75,7 +75,7 @@ export async function GET(req: NextRequest) {
     writer.write(encoder.encode(`:ping\n\n`)).catch(() => {
       clearInterval(heartbeat)
     })
-  }, 15000)
+  }, 150000000)
 
   // On client disconnect
   const onAbort = () => {
