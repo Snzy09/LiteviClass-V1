@@ -38,11 +38,6 @@ export default function StudentPortfolioPage({ params }: { params: { slug: strin
                 Projects
               </a>
             </li>
-            {student.certificates?.length ? (
-              <li>
-                
-              </li>
-            ) : null}
             <li>
               <a
                 href="#skills"
@@ -102,13 +97,6 @@ export default function StudentPortfolioPage({ params }: { params: { slug: strin
                 </Card>
               ))}
             </div>
-
-            {/* Render certificates section if available */}
-            {student.certificates?.length ? (
-              <div id="certificates" className="mt-8">
-                <StudentCertificates certificates={student.certificates} />
-              </div>
-            ) : null}
           </div>
 
           <aside className="md:col-span-1">
