@@ -417,34 +417,59 @@ export function AnonChat() {
               </PopoverContent>
             </Popover>
 
-            <Dialog open={imageOpen} onOpenChange={setImageOpen}>
-              <DialogTrigger asChild>
-                <InputGroupButton size="icon-xs" aria-label="Lampirkan gambar">
-                  <Paperclip className="size-4" />
-                </InputGroupButton>
-              </DialogTrigger>
-              <DialogContent>
-                <DialogHeader>
-                  <DialogTitle>Lampirkan Gambar</DialogTitle>
-                </DialogHeader>
-                <div className="grid gap-2">
-                  <Input
-                    value={imageUrl}
-                    onChange={(e) => setImageUrl(e.target.value)}
-                    placeholder="https://contoh.com/foto.jpg"
-                    inputMode="url"
-                    aria-label="URL gambar"
-                  />
-                </div>
-                <DialogFooter>
-                  <Button variant="secondary" onClick={() => setImageOpen(false)}>
-                    Batal
-                  </Button>
-                  <Button onClick={confirmImage}>Tambahkan</Button>
-                </DialogFooter>
-              </DialogContent>
-            </Dialog>
-          </InputGroupAddon>
+<Dialog open={imageOpen} onOpenChange={setImageOpen}>
+  <DialogTrigger asChild>
+    <InputGroupButton size="icon-xs" aria-label="Lampirkan gambar">
+      <Paperclip className="size-4" />
+    </InputGroupButton>
+  </DialogTrigger>
+
+  <DialogContent className="sm:max-w-md">
+    <DialogHeader>
+      <DialogTitle>Lampirkan Gambar</DialogTitle>
+      <p className="text-sm text-muted-foreground">
+        Masukkan tautan (URL) gambar yang ingin dikirim ke chat.
+      </p>
+    </DialogHeader>
+
+    <form
+      onSubmit={(e) => {
+        e.preventDefault()
+        confirmImage()
+      }}
+      className="grid gap-3"
+    >
+      <label className="text-sm font-medium" htmlFor="image-url">
+        URL Gambar
+      </label>
+      <Input
+        id="image-url"
+        value={imageUrl}
+        onChange={(e) => setImageUrl(e.target.value)}
+        placeholder="https://contoh.com/foto.jpg"
+        inputMode="url"
+        type="url"
+        required
+        aria-label="URL gambar"
+      />
+      <p className="text-xs text-muted-foreground">
+        Format yang didukung: .png, .jpg, .jpeg, .gif, .webp, .svg, .bmp, .ico, .avif
+      </p>
+
+      <DialogFooter className="mt-2">
+        <Button
+          type="button"
+          variant="secondary"
+          onClick={() => setImageOpen(false)}
+        >
+          Batal
+        </Button>
+        <Button type="submit">Tambahkan</Button>
+      </DialogFooter>
+    </form>
+  </DialogContent>
+</Dialog>
+</InputGroupAddon>
 
           <InputGroupTextarea
             ref={inputRef}
