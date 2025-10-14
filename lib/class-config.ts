@@ -14,6 +14,6 @@ export type ClassConfig = {
 export const defaultClassConfig: ClassConfig = {
   schoolName: "SMAN 2 Sekayu",
   className: "Litevi Class",
-  footerText: "Sponsored By : KT ( Komunitas Telenteng )",
+  footerText: "Sponsored By : KT ( Komunitas Telentang )",
   instagramUrl: "https://instagram.com/litevi.itclass",
 }
